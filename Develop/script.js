@@ -99,7 +99,8 @@ if (optionCart.length === 0){
   var randomChar = getRandomItem(randomList)
   generatePassword += randomChar
  }
-
+ // the function is now over and we want to return that result to where is was called
+return generatePassword
 }
 
 
